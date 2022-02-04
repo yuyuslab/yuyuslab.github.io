@@ -1,3 +1,0 @@
-document.write('<header><h2>YuYu\'s Lab</h2></header>')
-
-

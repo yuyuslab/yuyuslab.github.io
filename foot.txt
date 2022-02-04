@@ -1,3 +1,0 @@
-document.write('<footer><p>This website was made by YuYu\'s Lab</p></footer>')
-
-
