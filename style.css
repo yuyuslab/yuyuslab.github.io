@@ -21,18 +21,8 @@ header {
   height: 550px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
-  overflow-y: scroll; /* Add the ability to scroll */
-}
-/* Hide scrollbar for Chrome, Safari and Opera */
-.iframenav::-webkit-scrollbar {
-    display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-.iframenav {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
 
 /* Style the list inside the menu */
 nav ul {
