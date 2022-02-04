@@ -18,9 +18,20 @@ header {
 .iframenav {
   float: left;
   width: 20%;
-  height: 600px; /* only for demonstration, should be removed */
+  height: 550px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.iframenav::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.iframenav {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 /* Style the list inside the menu */
@@ -102,3 +113,4 @@ img {
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
