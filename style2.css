@@ -1,10 +1,11 @@
 body {
   line-height: 1.5;
   font-size: 24px;
+  overflow-y: hidden;
 }
 
 .indent {
-  text-indent: 50px;
+  text-indent: 0px;
 }
 
 #stumat {
