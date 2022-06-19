@@ -4,27 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>YuYu's Lab</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
   </head>
-  <body>
-    <header>
-      <h3>YuYu's Lab</h3>
-    </header>
-    <section>
-      <iframe src="nav.html" frameborder="0" class="iframenav"></iframe>
-      <article>
-        <iframe
-          src="home.html"
-          frameborder="0"
-          name="iframea"
-          class="iframea"
-        ></iframe>
-      </article>
-    </section>
+    <body>
+<!----NavStarts--------------------------->
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="/bioscistumat/BSstumat.html"
+          >Biological Science Studying Materials</a
+        >
+        <a href="socialmedia.html">Social Media</a>
+        <a href="scinews.html">Science Newsies</a>
+        <a href="searchengines.html">Research Paper Search Engine</a>
+        <a href="writingreport.html">Writing Reports</a>
+        <a href="BioSocial.html">Biological Sciological Study</a>
+      </div>
+      <header>Home</header>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ See Other Contents</button>
+      </div>
+    
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
 
-    <footer>
-      <p>This website was made by YuYu's Lab</p>
-    </footer>
-  </body>
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
+      </script>
+<!----NavEnds--------------------------->
+<!---ContentsStarts--------------------------->
+<h1>What is YuYu's Lab?</h1>
+          <p class="indent">
+            YuYu made the lab to share enjoiable elements of biological science.  Simply, that's it, but curiosity is what drives science!
+          </p>
+          <p class="indent">Maybe "Human Ecology" part is an interesting one...
+          </p>
+<!---ContentsEnds----------------------------->
+
+          <footer class="footer">
+            This website was made by YuYu's Lab
+          </footer>
+    </body>
+  </html>
 </html>

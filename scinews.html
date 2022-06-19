@@ -4,11 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Science Newsies</title>
-    <link rel="stylesheet" href="style2.css" />
   </head>
-  <body>
-    <h1>Science Newsies</h1>
+    <body>
+<!----NavStarts--------------------------->
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="/bioscistumat/BSstumat.html"
+          >Biological Science Studying Materials</a
+        >
+        <a href="socialmedia.html">Social Media</a>
+        <a href="scinews.html">Science Newsies</a>
+        <a href="searchengines.html">Research Paper Search Engine</a>
+        <a href="writingreport.html">Writing Reports</a>
+        <a href="BioSocial.html">Biological Sciological Study</a>      
+      </div>
+      <header>Science Newsies</header>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ See Other Contents</button>
+      </div>
+    
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
+      </script>
+<!----NavEnds--------------------------->
+<!---ContentsStarts--------------------------->
+<h1>Science Newsies</h1>
     <p class="indent">
       Reading science news is pretty good training for scientific reading. So,
       check out various fields of science to improve your scientific literacy!
@@ -33,5 +66,11 @@
       </li>
       <li><a href="https://www.newsinlevels.com/" target="_blank">News in Levels</a></li>
     </ul>
-  </body>
+<!---ContentsEnds----------------------------->
+
+          <footer class="footer">
+            This website was made by YuYu's Lab
+          </footer>
+    </body>
+  </html>
 </html>

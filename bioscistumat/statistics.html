@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css">
     <title>Statistics</title>
-    <link rel="stylesheet" href="/style2.css" />
-</head>
-<body>
-    <h1>Useful learning websites</h1>
+  </head>
+    <body>
+<!----NavStarts--------------------------->
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="/bioscistumat/BSstumat.html"
+          >Biological Science Studying Materials</a
+        >
+        <a href="socialmedia.html">Social Media</a>
+        <a href="scinews.html">Science Newsies</a>
+        <a href="searchengines.html">Research Paper Search Engine</a>
+        <a href="writingreport.html">Writing Reports</a>
+        <a href="BioSocial.html">Biological Sciological Study</a>      
+      </div>
+      <header>Statistics</header>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ See Other Contents</button>
+      </div>
+    
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
+      </script>
+<!----NavEnds--------------------------->
+<!---ContentsStarts--------------------------->
+<h1>Useful learning websites</h1>
     <p class="indent">
       If you understand logical stuff better in Japanese, check out Japanese one. Or if you're confortable with English, just click English one.
     </p>
@@ -19,5 +52,11 @@
             target="_blank"
             >Rを用いたデータ解析の基礎と応用</a>
         </li>
-</body>
+<!---ContentsEnds----------------------------->
+
+          <footer class="footer">
+            This website was made by YuYu's Lab
+          </footer>
+    </body>
+  </html>
 </html>

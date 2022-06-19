@@ -4,11 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Research Paper Search Engine</title>
-    <link rel="stylesheet" href="style2.css" />
   </head>
-  <body>
-    <h1>Search engines for research papers</h1>
+    <body>
+<!----NavStarts--------------------------->
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="/bioscistumat/BSstumat.html"
+          >Biological Science Studying Materials</a
+        >
+        <a href="socialmedia.html">Social Media</a>
+        <a href="scinews.html">Science Newsies</a>
+        <a href="searchengines.html">Research Paper Search Engine</a>
+        <a href="writingreport.html">Writing Reports</a>
+        <a href="BioSocial.html">Biological Sciological Study</a>      
+      </div>
+      <header>Research Paper Search Engine</header>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ See Other Contents</button>
+      </div>
+    
+      <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
+      </script>
+<!----NavEnds--------------------------->
+<!---ContentsStarts--------------------------->
+<h1>Search engines for research papers</h1>
     <p>
       In some website you can make a free account to download research papers.
       These are the search engines YuYu found useful, and maybe you too!
@@ -24,5 +57,11 @@
       <li><a href="https://www.sciencedirect.com/" target="_blank">ScienceDirect</a></li>
       <li><a href="https://www.science.gov/" target="_blank">Science.gov</a></li>
     </ul>
-  </body>
+<!---ContentsEnds----------------------------->
+
+          <footer class="footer">
+            This website was made by YuYu's Lab
+          </footer>
+    </body>
+  </html>
 </html>
